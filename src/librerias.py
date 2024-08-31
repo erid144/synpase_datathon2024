@@ -19,7 +19,7 @@ if missing_libraries:
     for lib in missing_libraries:
         print(lib)
 
-    subprocess.run(["pip", "install", *missing_libraries], capture_output=True)
+    #subprocess.run(["pip", "install", *missing_libraries], capture_output=True)
 
 # Import the required libraries, including Dash, Streamlit, and Lazy Predict
 import re
@@ -31,8 +31,8 @@ import seaborn as sns
 import plotly.express as px
 import plotly.offline as pyo
 import dash  # Import Dash
-import streamlit as st  # Import Streamlit
-import streamlit_pandas as sp
+#import streamlit as st  # Import Streamlit
+#import streamlit_pandas as sp
 from pydantic_settings import BaseSettings
 import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
