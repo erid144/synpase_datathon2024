@@ -33,10 +33,10 @@ import plotly.offline as pyo
 import dash  # Import Dash
 #import streamlit as st  # Import Streamlit
 #import streamlit_pandas as sp
-from pydantic_settings import BaseSettings
-import pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
-from pydantic_settings import BaseSettings
+#from pydantic_settings import BaseSettings
+#import pandas_profiling
+#from streamlit_pandas_profiling import st_profile_report
+#from pydantic_settings import BaseSettings
 #import LazyPredict  # Import Lazy Predict
 
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -46,13 +46,13 @@ from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
 from sklearn.metrics import mean_squared_error, r2_score, classification_report, accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, confusion_matrix, precision_recall_curve, average_precision_score
-from imblearn.over_sampling import SMOTE
+##from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import cross_validate
 from sklearn.model_selection import cross_val_predict
 from sklearn.preprocessing import OneHotEncoder
-from imblearn.over_sampling import SMOTE
-from imblearn.under_sampling import TomekLinks
-from imblearn.combine import SMOTETomek
+#from imblearn.over_sampling import SMOTE
+#from imblearn.under_sampling import TomekLinks
+#from imblearn.combine import SMOTETomek
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
